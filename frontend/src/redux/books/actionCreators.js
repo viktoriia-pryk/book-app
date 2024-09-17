@@ -8,3 +8,9 @@ export const addBook = (newBook) =>{
 
 }
 
+export const deleteBook = ( id) =>{
+    return{
+        type: actionType.DELETE_BOOK,
+        payload: id
+    }
+}
