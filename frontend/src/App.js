@@ -2,6 +2,7 @@ import './App.css'
 import BookForm from './components/BookForm/BookForm'
 import Filter from './components/Filter/Filter'
 import BookList from './components/BookList/BookList'
+import Error from './components/Error/Error'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <BookList/>
         </div>
       </main>
+      <Error/>
     </div>
   )
 }
