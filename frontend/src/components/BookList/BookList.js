@@ -56,6 +56,7 @@ const BookList = () => {
             <li key={book.id}>
               <div className="book-info">
                {++index} {highLightMatch(book.title, titleFilter)} by <strong>{highLightMatch(book.author, authorFilter)}</strong>
+               ({book.source})
                
                 </div>
               <div className="book-actions">
