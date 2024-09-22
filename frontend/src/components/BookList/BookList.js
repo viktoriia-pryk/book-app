@@ -7,6 +7,8 @@ import { selectTitleFilter ,selectAuthorFilter, selectOnlyFavoriteFilter} from "
 
 const BookList = () => {
   const books = useSelector(selectBooks)
+  console.log(books);
+  
   const titleFilter = useSelector(selectTitleFilter)
   const authorFilter = useSelector(selectAuthorFilter)
   const onlyFavoriteFilter = useSelector(selectOnlyFavoriteFilter)
